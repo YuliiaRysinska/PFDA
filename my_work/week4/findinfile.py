@@ -1,10 +1,9 @@
-# This is code will find some text in an access file
-# Author: Andrew Beatty
+
 
 import re
 
 regex = "\[.*\]"
-filename = "mini_access.log"
+filename = "access.log"
 
 with open(filename) as inputFile:
     for line in inputFile:
