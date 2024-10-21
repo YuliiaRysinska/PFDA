@@ -1,18 +1,19 @@
 
 
 import re
+regex = "\d{1,3}\.\d{1,3} " # note the space at the end
+replacementText="XXX.XXX " # note the space at the end to match above
 
-regex = "\[.*\]"
+
 filename = "access.log"
+outputFileName = "anonymisedIPs.txt"
 
 with open(filename) as inputFile:
-    for line in inputFile:
-        foundTextList = re.findall(regex, line)
-        if (len(foundTextList)!= 0):
-            #print(foundTextList)
-            foundText = foundTextList[0]
-            print(foundText)
-            # if I did not want the [] at the beginning and end
-            print(foundText[1:-1])
-
+    with open(outputFileName, 'w') as outputFile:
+        for line in inputFile:
+# for debugging
+#foundText = re.search(regex, line).group()
+#print(foundText)
+            newLine = re.sub(regex, replacementText, line)
+            outputFile.write(newLine)
 
