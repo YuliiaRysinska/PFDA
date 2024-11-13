@@ -1,5 +1,5 @@
 # PFDA
-#### PFDA repository include my_work, assignment with 7 tasks and project
+#### PFDA repository includes my_work, assignments and project that focus on the acquired knowledge and skills in PROGRAMMING FOR DATA ANALYTICS course at ATU, lecturer Andrew Beatty.
 
 # Assignment 2 weather
 #### Jupyter notebook called assignment2-weather.ipynb that has a nice plot of the temperature over time( "dryBulbTemperature_Celsius" ). 
@@ -14,5 +14,6 @@
 # Assignment 6 (Knock airport Weather)
 #### Create a python file or notebook called assignment_6_Weather (.py or .ipynb). Get the data from this link: https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv. Create Plots:1)The temperature, 2) mean temperature each day. 3) mean temperature for each month, 4)Windspeed (there is data missing from this column),5) rolling windspeed (say over 24 hours),6) max windspeed for each day,7) monthly mean of the daily max windspeeds
 
+# Project 
 
 
