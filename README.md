@@ -19,20 +19,25 @@
 
 # Assignment 6 (Knock airport Weather)
 #### Create a python file or notebook called assignment_6_Weather (.py or .ipynb). Get the data from this link: https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv. Create Plots: 1)The temperature 2) the mean temperature each day. 3) mean temperature for each month 4) Windspeed (there is data missing from this column) 5) rolling windspeed (say over 24 hours) 6) max windspeed for each day 7) monthly mean of the daily max windspeeds
+-------------------------------------------
 
 # Project
 
 #### Link to video description: https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/EXcFP34yMEFHqBdthedbDMcBoRx0r3owJlNSTZYl1ICSVg?e=GdeX7U&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJUZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJkOGRhODQ0Ni0xN2M1LTQ0MDMtYjI2Yy1jMDY4NTk5ZWQ2ZmMifX0%3D
 
-## Description:
+## Description of project:
 #### Notebook project_pfda demonstrates performing data analysis on data on wind speed around the country to windfarm from https://www.met.ie/climate/available-data/historical-data website.
 
 ## Description of data set:
-#### Station Name: SHANNON AIRPORT, Station Height: 15 M, Latitude:52.690, Longitude: -8.918, date:-00 to 00 UTC, rain:- Precipitation Amount(mm), maxtp:-Maximum Air Temperature(C), mintp:-Minimum  Air Temperature(C), gmin:-09utc Grass Minimum Temperature(C), soil:-Mean 10cm Soil Temperature(C),wdsp:-Mean Wind Speed (knot), hm:-Highest ten minute mean wind speed (knot), ddhm:-Wind Direction at max 10 min. mean (deg), hg:-Highest Gust (knot), cbl:-Mean CBL Pressure (hpa), sun:-Sunshine duration (hours), pe:-Potential Evapotranspiration (mm), evap:-Evaporation (mm), smd_wd:-Soil Moisture Deficits(mm) well drained, smd_md:-Soil Moisture Deficits(mm) moderately drained, smd_pd:-Soil Moisture Deficits(mm) poorly drained, ind:-Indicator(i).
+#### Station Name: SHANNON AIRPORT, Station Height: 15 M, Latitude:52.690, Longitude: -8.918, date:-00 to 00 UTC, rain:- Precipitation Amount(mm), maxtp:-Maximum Air Temperature(C), mintp:-Minimum  Air Temperature(C), gmin:-09utc Grass Minimum Temperature(C), soil:-Mean 10cm Soil Temperature(C),wdsp:-Mean Wind Speed (knot), hm:- Highest 10 minute mean wind speed (knot), ddhm:-Wind Direction at max 10 min. mean (deg), hg:-Highest Gust (knot), cbl:-Mean CBL Pressure (hpa), sun:-Sunshine duration (hours), pe:-Potential Evapotranspiration (mm), evap:-Evaporation (mm), smd_wd:-Soil Moisture Deficits(mm) well drained, smd_md:-Soil Moisture Deficits(mm) moderately drained, smd_pd:-Soil Moisture Deficits(mm) poorly drained, ind:-Indicator(i).
 
-#### Steps: 1) download a CSV file with mean wind speed from Shannon Airport location from 01 January 1990. 2) Clean and normalize the data 3) Make analysis
+## Steps: 
+#### 1) create project folder with project_pfda.ipynb file. 2)Download a CSV file with mean wind speed from Shannon Airport location from 01 January 1990. 3) Clean and normalize the data. 4) Make analysis 5)Cleaning, Regression, and Interpolation Data Comparison 6)Synthesis 7) Ploting 8)Conclusions
 
-#### • Questions you can ask: How much wind power is there at a particular location?This is quite open ended, is this just the mean wind speed for an hour/day/month/year, or should you take into account that there are wind ranges that the windfarms can operate in. (minmax speeds) ▪ Some analysis of what power when would be useful (time of day/year) o Are the wind speeds likely to be the same in 10 years in the future? ie is there a trend in recorded wind speeds over the last few decades. o Is there any other weather metric worth analyzing (eg rain, temp) o What will the power output of the windfarms in Ireland be like next week, according to the weather forecasts? (ok that is a tricky one, because you would need to get, or make up, information about the size and locations of the wind farms in Ireland, one find/makeup the windspeed to power output equation.
+
+##### • Questions you can ask: How much wind power is there at a particular location?This is quite open ended, is this just the mean wind speed for an hour/day/month/year, or should you take into account that there are wind ranges that the windfarms can operate in. (minmax speeds) ▪ Some analysis of what power when would be useful (time of day/year) o Are the wind speeds likely to be the same in 10 years in the future? ie is there a trend in recorded wind speeds over the last few decades. o Is there any other weather metric worth analyzing (eg rain, temp) o What will the power output of the windfarms in Ireland be like next week, according to the weather forecasts? (ok that is a tricky one, because you would need to get, or make up, information about the size and locations of the wind farms in Ireland, one find/makeup the windspeed to power output equation.
+
+## References:
 
 
 
