@@ -38,6 +38,10 @@
 ##### • Questions you can ask: How much wind power is there at a particular location?This is quite open ended, is this just the mean wind speed for an hour/day/month/year, or should you take into account that there are wind ranges that the windfarms can operate in. (minmax speeds) ▪ Some analysis of what power when would be useful (time of day/year) o Are the wind speeds likely to be the same in 10 years in the future? ie is there a trend in recorded wind speeds over the last few decades. o Is there any other weather metric worth analyzing (eg rain, temp) o What will the power output of the windfarms in Ireland be like next week, according to the weather forecasts? (ok that is a tricky one, because you would need to get, or make up, information about the size and locations of the wind farms in Ireland, one find/makeup the windspeed to power output equation.
 
 ## References:
+#### matplotlib.org. (n.d.). matplotlib.axes.Axes.twinx — Matplotlib 3.6.2 documentation. [online] Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html.
+##### Brownlee, J. (2016). How To Resample and Interpolate Your Time Series Data With Python. [online] MachineLearningMastery.com. Available at: https://machinelearningmastery.com/resample-interpolate-time-series-data-python/.
+##### scikit-learn. (n.d.). sklearn.linear_model.LinearRegression. [online] Available at: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html# [Accessed 5 Jan. 2024].
+##### IBM (n.d.). About Linear Regression | IBM. [online] www.ibm.com. Available at: https://www.ibm.com/topics/linear-regression.
 
 
 
